@@ -1,0 +1,38 @@
+#parentDiv {
+    width: 30%;
+    position: relative;
+    margin: auto;
+}
+
+
+.imageTextDiv{
+    position: absolute;
+}
+
+#catImg{
+    width: 100%;
+}
+#topRightDiv {
+    background-color: red;
+    top:0;
+    left:0;
+
+}
+
+#topLeftDiv {
+    background-color: red;
+    top: 0;
+    right: 0;
+}
+#bottomRightDiv {
+    background-color: red;
+    bottom: 0;
+    left: 0;
+}
+
+#bottomLeftDiv {
+    background-color: red;
+    bottom: 0;
+    right: 0;
+}
+
