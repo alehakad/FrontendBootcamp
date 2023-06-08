@@ -40,3 +40,14 @@ function koo(d) {
 var r = goo(5);
 var w = r + too(3) + zoo(r) + boo(r, too(712));
 var q = foo(r, w, 4) + koo(34) + noo(w, r);
+
+/*
+How many times koo is being called? 3
+What is the value of b in the 4th time foo is called? 8
+who is calling goo the first time?
+what function was called the most?
+Who is calling foo the first time it is being called?
+what is the greatest value zoo sends as a parameter to too?
+what is the largest value of j*2.3 when calling too?
+find the biggest value that koo returns
+*/
