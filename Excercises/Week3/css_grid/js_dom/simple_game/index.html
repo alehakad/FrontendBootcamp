@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    
+</head>
+
+<body>
+    <div id="box" onclick="onClickColor()" onmouseenter="enterColor()" onmouseleave="leaveColor()">Hover over me!</div>
+    
+    <ul id="drinkList" onclick="addDrink()">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    
+    <div id="container">
+        <div id="playing-field" class="centered">
+            <div id="ball" class="centered"></div>
+        </div>
+        <div id="arrows" class="centered">
+            <div id="up" class="arrow" onclick="moveBallUp()">&uarr;</div>
+            <div id="left" class="arrow" onclick="moveBallLeft()">&larr;</div>
+            <div id="right" class="arrow" onclick="moveBallRight()">&rarr;</div>
+            <div id="down" class="arrow" onclick="moveBallDown()">&darr;</div>
+        </div>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
