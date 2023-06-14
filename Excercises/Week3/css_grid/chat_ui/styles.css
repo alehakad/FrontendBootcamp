@@ -1,0 +1,33 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 7fr 1fr;
+    grid-template-areas:
+        "s m" "s f";
+    grid-gap: 10px;
+}
+
+
+.side-nav-container {
+    grid-area: s;
+    background-color: purple;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-auto-rows: 1fr;
+}
+.side-friend{
+    height: 20px;
+    background-color: lightcoral;
+    margin: 0 5%;
+}
+
+.main {
+    grid-area: m;
+    background-color: lightgray
+}
+
+.foot {
+    grid-area: f;
+    background-color: wheat
+}
