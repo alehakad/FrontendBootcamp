@@ -23,7 +23,8 @@ for (let i = 1; i <= 10; i++) {
   //create new box
   let newBox = document.createElement("div");
   newBox.style.backgroundColor = getRandomColor();
-  newBox.clientHeight = boxHeight;
-  newBox.clientWidth = boxWidth;
+  // newBox.style.height = boxHeight + "px";
+  // newBox.style.width = boxWidth + "px";
+  console.log(`Adding box number ${i}`);
   boxContainer.appendChild(newBox);
 }
