@@ -1,5 +1,11 @@
-.container{
+#container{
     display: grid;
-    grid-column: repeat(3,1fr);
-    grid-row: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
 }
+
+.containerBox{
+    height: 100px;
+}
+

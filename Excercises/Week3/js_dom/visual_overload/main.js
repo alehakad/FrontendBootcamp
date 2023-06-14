@@ -16,15 +16,16 @@ const getRandomColor = function () {
 };
 
 let numOfBoxes = 10;
-let boxHeight = 20;
-let boxWidth = 20;
+
 let boxContainer = document.getElementById("container");
 for (let i = 1; i <= 10; i++) {
   //create new box
   let newBox = document.createElement("div");
   newBox.style.backgroundColor = getRandomColor();
-  // newBox.style.height = boxHeight + "px";
-  // newBox.style.width = boxWidth + "px";
+  newBox.className = "containerBox";
+  newBox.onmouseenter = function () {
+    this.style.backgroundColor = getRandomColor();
+  };
   console.log(`Adding box number ${i}`);
   boxContainer.appendChild(newBox);
 }
