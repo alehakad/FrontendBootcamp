@@ -1,0 +1,10 @@
+#central-div{
+    background-color: grey;
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+       
+}

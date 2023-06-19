@@ -9,12 +9,16 @@
 }
 
 
-.side-nav-container {
+#side-nav-container {
     grid-area: s;
     background-color: purple;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    grid-auto-rows: 1fr;
+}
+#side-nav-friends {
+    display: grid;
+    grid-template-rows: repeat(auto-fit,1fr);
+    row-gap: 10px;
 }
 .side-friend{
     height: 20px;
@@ -22,12 +26,33 @@
     margin: 0 5%;
 }
 
-.main {
+#main {
     grid-area: m;
-    background-color: lightgray
+    background-color: lightgray;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(auto-fit,1fr);
+    grid-template-areas: 
+    "mml . "
+    "mml . "
+    ;
+    grid-gap: 10px;
 }
 
-.foot {
+#foot {
     grid-area: f;
-    background-color: wheat
+    background-color: wheat;
+}
+
+.main-message-left{
+    grid-area: mml;
+    height: 40px;
+    background-color: green;
+
+}
+
+.main-message-right{
+    grid-area: mmr;
+    height: 40px;
+    background-color: aqua;
 }

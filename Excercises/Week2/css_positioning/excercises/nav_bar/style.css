@@ -1,0 +1,21 @@
+#main-navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    background-color: gray;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+#navbar a{
+    padding-right: 10px;
+}
+
+#main-bottom{
+    position: fixed;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
