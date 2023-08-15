@@ -1,0 +1,27 @@
+#main-present{
+    display: inline-block;
+    position: relative;
+    background-color:blue;
+    width:200px;
+    height:200px;
+}
+
+#main-present .ribbon{
+    position: absolute;
+    background-color:red;
+    
+    
+
+}
+
+#ribbon1{
+    height: 100%;
+    width: 10px;
+    left:10%
+}
+
+#ribbon2 {
+    width: 100%;
+    height: 10px;
+    bottom: 90%;
+}

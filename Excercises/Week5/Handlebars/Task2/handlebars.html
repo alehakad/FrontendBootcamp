@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script id="store-template" type="text/x-handlebars-template">
+      <ul>
+        {{#each classmates}}
+        {{#if isPresent}}
+        <li>  {{ name }}---{{ description }} </li>
+        {{/if}}
+        {{/each}}
+      </ul>
+    </script>
+    
+    <div class="items">
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="handlebars.js"></script>
+</body>
+</html>
